@@ -20,7 +20,6 @@ REQUIRED_COLUMNS = [
 st.set_page_config(page_title="SPARKS Dashboard", layout="wide")
 
 st.title("S.P.A.R.K.S Intelligent Inspection Dashboard")
-st.image("https://drive.google.com/uc?id=1AbCDefGhIJkLMnOP")
 # Read Google Sheets CSV
 df = pd.read_csv(SHEET_CSV_URL)
 
